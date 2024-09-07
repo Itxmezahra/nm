@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get to Know Each Other</title>
+    <style>
+        body {
+            background-color: #FFE4E1;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            color: #FF69B4;
+            padding: 50px;
+        }
+        .container {
+            border: 2px solid #FFB6C1;
+            border-radius: 15px;
+            background-color: #FFF0F5;
+            padding: 20px;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 24px;
+        }
+        button {
+            background-color: #FF69B4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #FF1493;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>You are Attractive!</h1>
+        <p>Want to get to know each other better?</p>
+        <div>
+            <a href="https://www.example.com/yes"><button>Yes</button></a>
+            <a href="https://www.example.com/no"><button>No</button></a>
+        </div>
+    </div>
+</body>
+</html>
+
